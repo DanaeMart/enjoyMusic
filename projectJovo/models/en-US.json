@@ -1,0 +1,140 @@
+{
+	"invocation": "my test app",
+	"intents": [
+		{
+			"name": "HelloWorldIntent",
+			"phrases": [
+				"hello",
+				"say hello",
+				"say hello world"
+			]
+		},
+
+		{
+			"name": "AnswerIntent",
+			"phrases": [
+				"the answer is {answer}",
+				"my answer is {answer}",
+				"is it {answer}",
+				"{answer} is my answer",
+				"{answer}"
+			],
+			"inputs": [
+				{
+					"name": "answer",
+					"type": {
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
+
+		{
+			"name": "DontKnowIntent",
+			"phrases": [
+				"i don't know",
+				"don't know",
+				"i don't know that one",
+				"dunno",
+				"skip",
+				"i don't know that",
+				"who knows",
+				"i don't know this question"
+			],
+			"inputs": []
+		},
+		{
+			"name": "CancelIntent",
+		
+			"phrases": [
+				"cancel",
+				"cancel please",
+				"please cancel"
+			]
+		},
+
+		{
+			"name": "HelpIntent",
+		
+			"phrases": [
+				"help",
+				"help me",
+				"help please",
+				"can you help me",
+				"what can you tell me",
+				"could you help",
+				"what can i do"
+			]
+		},
+		{
+			"name": "ExitIntent",
+		
+			"phrases": [
+				"exit",
+				"exit please",
+				"stop",
+				"stop please",
+				"please stop"
+			]
+		},
+		{
+			"name": "RepeatIntent",
+		
+			"phrases": [
+				"can you repeat that",
+				"repeat that",
+				"please repeat",
+				"what",
+				"say that again",
+				"repeat"
+			]
+		},
+		{
+			"name": "GuapoIntent",
+			"phrases": [
+				"Quien es el más guapo?"
+			]
+		},
+
+		{
+			"name": "MyNameIsIntent",
+			"phrases": [
+				"{name}",
+				"my name is {name}",
+				"i am {name}",
+				"you can call me {name}"
+			],
+			"inputs": [
+				{
+					"name": "name",
+					"type": {
+						"dialogflow": "@sys.given-name"
+					}
+				}
+			]
+		}
+	],
+	
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+			
+
+		]
+	}
+}

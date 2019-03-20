@@ -1,0 +1,78 @@
+[
+	{
+		"data": [
+			{
+				"text": "the answer is ",
+				"userDefined": false
+			},
+			{
+				"text": "answer",
+				"userDefined": true,
+				"alias": "answer",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "my answer is ",
+				"userDefined": false
+			},
+			{
+				"text": "answer",
+				"userDefined": true,
+				"alias": "answer",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "is it ",
+				"userDefined": false
+			},
+			{
+				"text": "answer",
+				"userDefined": true,
+				"alias": "answer",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "answer",
+				"userDefined": true,
+				"alias": "answer",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " is my answer",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "answer",
+				"userDefined": true,
+				"alias": "answer",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "enjoymusic-43e58",
+  "private_key_id": "0533e1a8f7b74e6f960f7fc8b3d6dd4bf3254005",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQ6pc1O2/qy4db\n4BeDWxohH5PuC962arzcLWDN3NZ5XfMMs65f9Ob1U1dAog3ACinN6fkfY4cHHgzo\nwk+I/KjE4Pdy+/ZqF5akAUUQRmcu21+/yMLXpkWriPZtkRKGy+6/iDhjuN20C208\nzNg1dKhYQOy4LWJPNlXCkBR2msInAo+ktm7V4yGd2yHTwncFgkXlvScsHYQZ9LNY\nydqkHBGJ243kQdNGavaVbyICE7jySDY0ALm+NnXrXnbK3YImEmRWOiT+iTN8bGTR\nqcwu/oLOd+oMoA/x5d92X9WqCYPzQzJ3lYpRPxV4q9XL//yFJSFP4Ra/VRjAjtAX\nFwUxNJcPAgMBAAECgf8n31CfWTGLunQ4hcGTx9eGwDRA+UOmIwe+MF90XrPilwX7\nNgL4DeBvEZKRkn14t+EjC6jglxhpIcG20s7kYPqHEuZsFOuzdpZnpZMjHyh+06D6\n+LHmGh5yCTSXQrQBRrG1TIdCIvN4DKZcD+sOhVw8MxLqbMxfSD3cRBoJXzu+03xq\nDM4cgAApxT4BOwwUmBu86+fpOEs4PXsa0ftROBol4DwLjB4//R1Pi3zkdMy5MCXo\npSAB1ZvgtdquAH33XmhxWmDItau56CK8OOOETSllw2dbEgbIfl+WhNV5FKlm6ryK\ncSZ7O5yrYk3Jk3ZOyYRuZb3u3IddI1d98jEDo5ECgYEAyW7JmgSBpZIUBsswssoW\n6ygFdBCk16dHr7ZHBx987GwmsHn/QHa6NdMImF8bdN7FJYg1BpYcO5bmQYNkM5IR\nknlmTYNDULTIoLbcvI9iF8Qr4spI4Umy/xqOgBPZocmiMgAHq6hv57iDFVGa2xyx\nwy0wwEeiB1CmFLvcs401t4MCgYEAuCxu56ftJD3IGy2jgWgH5Ylp1Hy3hE6HSLf0\n1E0RxUFl1n6J0GMP+HKsM8CddGGukL8lxDX2i7NVBVi7yF8fSK65GNTG83Wsk0lz\nWj0IsjJtJ8fqrvmv3TDuhqqIZGi7b6eekZNxQoHmPM0MuMRkHzB/g4Gpgonre0+0\nuECOwIUCgYEAsDq+JIKWzr17yenRJErMPFZaVw4MuiO/AwqtH5071ThVrQY+/C4j\ngd2s4morAle4EbsV8To5XyUJM/35F2lO+GA/0cbqiNxxvrHdcxba0kItxxAFLR0m\nfivEymcTe4mF3srJ6zPFG+0AuhEYM2TqXQDXaxIAvvefJfqp/2imu3MCgYEAhtII\nEc7M+xW68aJUKfvko/QWo7T0hocR43q+X9dXJeX8zart6b1KyJ3xTyU2XibPqigz\nVlIGfDe4CmTtef2gIg29c973EOvYfC1touZBAmmFnHRtaM9hHPOf+LbHh3FfnJnA\nq2Kaq4v55hJYuL0Taf2Pqs31L5kU57zuV17y4R0CgYA1nFQFY8jv+x4CFD+yvCdB\nLoUZunosLdFNAOdEUk1pruZsh8+Ibxa1pbmoUpzbrYZO7D+/87dKHSTvL48XOoZ4\nfvHUuxrDvIU4gFjvxVi2XYlJOBllSM3wL5vJ3r5oERX1M4OncYe4NuMfzJS2sNTF\nqpJwJU2EV8nt0/9rfGcmMQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "enjoy-music@enjoymusic-43e58.iam.gserviceaccount.com",
+  "client_id": "115967658944875729919",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/enjoy-music%40enjoymusic-43e58.iam.gserviceaccount.com"
+}
