@@ -1,5 +1,5 @@
 {
-	"name": "AnswerIntent",
+	"name": "MyNameIsIntent",
 	"auto": true,
 	"webhookUsed": true,
 	"responses": [
@@ -7,12 +7,11 @@
 			"parameters": [
 				{
 					"isList": false,
-					"name": "answer",
-					"value": "$answer",
-					"dataType": "@sys.any"
+					"name": "name",
+					"value": "$name",
+					"dataType": "@sys.given-name"
 				}
 			]
 		}
-	],
-	"isList": true
+	]
 }

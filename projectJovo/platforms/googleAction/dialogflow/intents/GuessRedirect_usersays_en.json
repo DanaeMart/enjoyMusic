@@ -2,7 +2,7 @@
 	{
 		"data": [
 			{
-				"text": "exit",
+				"text": "guess",
 				"userDefined": false
 			}
 		],
@@ -12,7 +12,7 @@
 	{
 		"data": [
 			{
-				"text": "exit please",
+				"text": "guessing",
 				"userDefined": false
 			}
 		],
@@ -22,7 +22,7 @@
 	{
 		"data": [
 			{
-				"text": "stop",
+				"text": "guessing mode",
 				"userDefined": false
 			}
 		],
@@ -32,7 +32,7 @@
 	{
 		"data": [
 			{
-				"text": "stop please",
+				"text": "guess mode",
 				"userDefined": false
 			}
 		],
@@ -42,7 +42,7 @@
 	{
 		"data": [
 			{
-				"text": "please stop",
+				"text": "guessing game",
 				"userDefined": false
 			}
 		],
@@ -52,7 +52,7 @@
 	{
 		"data": [
 			{
-				"text": "finish",
+				"text": "guess game",
 				"userDefined": false
 			}
 		],

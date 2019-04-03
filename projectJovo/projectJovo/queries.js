@@ -39,7 +39,7 @@ module.exports = {
  */
     ref.orderByKey().on("value", function(snap) {
     snap.forEach(function(data) {
-    //console.log(snap.val());
+   
     songsObj = new Object();
     songsObj.id=data.val().id;
     songsObj.author=data.val().author;
@@ -60,45 +60,8 @@ module.exports = {
                 
   return songsArray;  
    
-  },
-
-  getCorrect: function(userID, callback){
-    firebase.auth();
-
-    var db = firebase.database();
-    var ref = db.ref("userSheet");
-    var correct;
-    var total;
-    ref.orderByKey().equalTo(userID).on("value", function(snap) {
-      snap.forEach(function(data) {
-        correct = data.val().correct
-        total = data.val().total
-        console.log("Total en funcion: "+total)
-
-      })      
-
-    });
-    callback({correct:correct,total:total});
-
-/*     return {      
-      correct:correct,
-      total:total
-    }; */
-  },
-
-  setCorrect:function(userID,correct,total){
-    firebase.auth();
-    var db = firebase.database();
-    var ref = db.ref("userSheet");
-    var usersRef = ref.child(userID);
-    usersRef.update({
-      correct:correct,
-      total:total
-    });
-
-  }
-
   }
   
 
   
+}

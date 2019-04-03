@@ -9,11 +9,12 @@
 				"my answer is {answer}",
 				"is it {answer}",
 				"{answer} is my answer",
-				"{answer}"				
+				"{answer}"
 			],
+
 			"dialogflow": {
-				"isList": true				
-				
+				"isList": true,
+				"priority":1000000
 			},
 			"inputs": [
 				{
@@ -24,7 +25,37 @@
 				}
 			]
 		},
-
+		{
+			"name": "GameMode",
+			"phrases": [
+				"I want to play {quiz} mode",
+				"I want to play {review} ",
+				"play {mode}",
+				"play {mode} mode",
+				"{mode} mode",
+				"{mode} mode",
+				"{mode} mode",
+				"{mode}"
+				
+			],
+			"dialogflow": {
+				"isList": true
+			},
+		
+			"inputs": [
+				{
+					"name": "mode",
+					"values":[
+						{
+						"value":"guessing"					
+						}
+					],					
+					"type": {
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
 
 		{
 			"name": "HelloWorldIntent",
@@ -34,6 +65,8 @@
 				"say hello world"
 			]
 		},
+
+
 		{
 			"name": "DontKnowIntent",
 			"phrases": [
@@ -48,22 +81,7 @@
 			],
 			"inputs": []
 		},
-		{
-			"name": "GuessRedirect",
-			"phrases": [
-				"guess",
-				"guessing",
-				"guessing mode",
-				"guess mode",
-				"guessing game"	,
-				"guess game"		
-			],
-			"dialogflow": {
-				"priority":1000000
-			},
-			"inputs": []
-		},
-
+	
 
 		{
 			"name": "HelpIntent",
@@ -115,7 +133,7 @@
 				"{name}",
 				"my name is {name}",
 				"i am {name}",
-				"you can call me {name}"				
+				"you can call me {name}"
 			],
 			"inputs": [
 				{

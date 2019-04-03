@@ -1,0 +1,11 @@
+{
+	"name": "GuessRedirect",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": []
+		}
+	],
+	"priority": 1000000
+}

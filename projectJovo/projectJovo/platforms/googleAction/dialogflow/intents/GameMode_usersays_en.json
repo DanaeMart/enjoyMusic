@@ -1,0 +1,134 @@
+[
+	{
+		"data": [
+			{
+				"text": "I want to play ",
+				"userDefined": false
+			},
+			{
+				"text": "quiz",
+				"userDefined": true
+			},
+			{
+				"text": " mode",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "I want to play ",
+				"userDefined": false
+			},
+			{
+				"text": "review",
+				"userDefined": true
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "play ",
+				"userDefined": false
+			},
+			{
+				"text": "mode",
+				"userDefined": true,
+				"alias": "mode",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "play ",
+				"userDefined": false
+			},
+			{
+				"text": "mode",
+				"userDefined": true,
+				"alias": "mode",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " mode",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "mode",
+				"userDefined": true,
+				"alias": "mode",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " mode",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "mode",
+				"userDefined": true,
+				"alias": "mode",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " mode",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "mode",
+				"userDefined": true,
+				"alias": "mode",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " mode",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "mode",
+				"userDefined": true,
+				"alias": "mode",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

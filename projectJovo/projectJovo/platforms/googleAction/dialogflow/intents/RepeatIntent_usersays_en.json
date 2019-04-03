@@ -2,7 +2,7 @@
 	{
 		"data": [
 			{
-				"text": "exit",
+				"text": "can you repeat that",
 				"userDefined": false
 			}
 		],
@@ -12,7 +12,7 @@
 	{
 		"data": [
 			{
-				"text": "exit please",
+				"text": "repeat that",
 				"userDefined": false
 			}
 		],
@@ -22,7 +22,7 @@
 	{
 		"data": [
 			{
-				"text": "stop",
+				"text": "please repeat",
 				"userDefined": false
 			}
 		],
@@ -32,7 +32,7 @@
 	{
 		"data": [
 			{
-				"text": "stop please",
+				"text": "what",
 				"userDefined": false
 			}
 		],
@@ -42,7 +42,7 @@
 	{
 		"data": [
 			{
-				"text": "please stop",
+				"text": "say that again",
 				"userDefined": false
 			}
 		],
@@ -52,7 +52,7 @@
 	{
 		"data": [
 			{
-				"text": "finish",
+				"text": "repeat",
 				"userDefined": false
 			}
 		],

@@ -14,5 +14,6 @@
 			]
 		}
 	],
-	"isList": true
+	"isList": true,
+	"priority": 1000000
 }

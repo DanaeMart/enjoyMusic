@@ -1,5 +1,5 @@
 {
-	"name": "AnswerIntent",
+	"name": "GameMode",
 	"auto": true,
 	"webhookUsed": true,
 	"responses": [
@@ -7,8 +7,8 @@
 			"parameters": [
 				{
 					"isList": false,
-					"name": "answer",
-					"value": "$answer",
+					"name": "mode",
+					"value": "$mode",
 					"dataType": "@sys.any"
 				}
 			]
